@@ -15,40 +15,54 @@
   <body>
     <div class="container">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city!" required />
-          <input type="submit" value="search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city!"
+            required
+            class="search-input"
+          />
+          <input type="submit" value="search" class="search-button" />
         </form>
       </header>
       <main>
-        <h1>london</h1>
-        <p>
+        <h1 class="weather-app-city">london</h1>
+        <p class="weather-app-details">
           Sunday 13:47 <br />
           Rainy day
         </p>
-        <div>⛅ 24°C</div>
-        <ul>
-          <li>
+        <div class="weather-app-temperature">
+          <span class="icon">⛅</span><span class="temperature-value"> 24</span
+          ><span class="temperature-unit">°C</span>
+        </div>
+        <div class="weather-app-data">
+          <div>
             🌦humidity <br />
-            90%
-          </li>
-          <li>
+            <strong>90%</strong>
+          </div>
+          <div>
             🍃wind <br />
-            18 km/h
-          </li>
-          <li>
-            sunrise <br />
-            6:00
-          </li>
-          <li>sunset <br />19:00</li>
-        </ul>
+            <strong>18 km/h</strong>
+          </div>
+          <div>
+            🌅 sunrise <br />
+            <strong>6:00</strong>
+          </div>
+          <div>🌇 sunset <br /><strong>19:00</strong></div>
+        </div>
         <hr />
         <ul>
-          <li>Fri 19° 9°</li>
-          <li>Sat 20° 12°</li>
-          <li>Sun 22° 14°</li>
-          <li>Mon 19° 7°</li>
-          <li>Tue 23° 15°</li>
+          <li>
+            Fri <br />
+            19° 9°
+          </li>
+          <li>Sat <br />20° 12°</li>
+          <li>Sun <br />22° 14°</li>
+          <li>
+            Mon <br />
+            19° 7°
+          </li>
+          <li>Tue <br />23° 15°</li>
         </ul>
       </main>
       <footer>
