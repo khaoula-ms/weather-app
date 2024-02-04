@@ -73,13 +73,14 @@ a {
   font-weight: 400px;
 }
 .icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 .temperature-value {
   font-size: 88px;
   font-weight: bold;
   margin-left: 10px;
+  line-height: 88px;
 }
 .temperature-unit {
   font-size: 88px;
@@ -96,4 +97,10 @@ a {
 }
 .weather-app-data strong {
   color: rgb(238, 152, 121);
+}
+.country {
+  padding-bottom: 10px;
+}
+.humidity {
+  padding-bottom: 10px;
 }

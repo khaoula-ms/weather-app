@@ -8,9 +8,11 @@ function updateWeather(response) {
   let feelsLikeTemp = document.querySelector("#feels-like");
   let timeElement = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
+  let icon = document.querySelector("#icon");
   city.innerHTML = response.data.city;
 
   timeElement.innerHTML = formatDate(date);
+  icon.innerHTML = `<img src="${response.data.condition.icon_url}" class="icon" />`;
   temperature.innerHTML = Math.round(response.data.temperature.current);
   weatherDescription.innerHTML = response.data.condition.description;
   country.innerHTML = response.data.country;
