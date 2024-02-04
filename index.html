@@ -30,8 +30,8 @@
       <main>
         <h1 class="weather-app-city" id="weather-app-city"></h1>
         <p class="weather-app-details">
-          Sunday 13:47 <br />
-          Rainy day
+          <span id="time"></span> <div id="weather-description">
+          </div>
         </p>
         <div class="weather-app-temperature">
           <span class="icon">⛅</span
@@ -39,18 +39,18 @@
           ><span class="temperature-unit">°C</span>
         </div>
         <div class="weather-app-data">
-          <div>🌆 country <br /><strong>UK</strong></div>
+          <div>🌆 Country <br /><strong id="country"></strong></div>
           <div>
-            🌦humidity <br />
-            <strong>90%</strong>
+            🌦 Humidity <br />
+            <strong><span id="humidity"></span>%</strong>
           </div>
           <div>
-            🍃wind <br />
-            <strong>18 km/h</strong>
+            🍃Wind <br />
+            <strong><span id="wind-speed"></span> km/h</strong>
           </div>
           <div>
-            👨🏻‍💼 feels_like <br />
-            <strong>6:00</strong>
+            👨🏻‍💼 Feels_like <br />
+            <strong><span id="feels-like"></span>°C</strong>
           </div>
         </div>
         <hr />
