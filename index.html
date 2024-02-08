@@ -29,16 +29,19 @@
       </header>
       <main>
         <h1 class="weather-app-city" id="weather-app-city"></h1>
-        <p class="weather-app-details">
-          <span id="time"></span> <div id="weather-description">
-          </div>
-        </p>
+        <div class="weather-app-details">
+          <span id="time"></span>
+          <div id="weather-description"></div>
+        </div>
         <div class="weather-app-temperature">
-          <span id="icon"></span><span class="temperature-value" id="temperature-value"> </span
+          <span id="icon"></span
+          ><span class="temperature-value" id="temperature-value"> </span
           ><span class="temperature-unit">°C</span>
         </div>
         <div class="weather-app-data">
-          <div class="country">🌆 Country <br /><strong id="country"></strong></div>
+          <div class="country">
+            🌆 Country <br /><strong id="country"></strong>
+          </div>
           <div class="humidity">
             🌦 Humidity <br />
             <strong><span id="humidity"></span>%</strong>
@@ -53,19 +56,7 @@
           </div>
         </div>
         <hr />
-        <ul>
-          <li>
-            Fri <br />
-            19° 9°
-          </li>
-          <li>Sat <br />20° 12°</li>
-          <li>Sun <br />22° 14°</li>
-          <li>
-            Mon <br />
-            19° 7°
-          </li>
-          <li>Tue <br />23° 15°</li>
-        </ul>
+        <div class="forecast-weather" id="forecast"></div>
       </main>
       <footer>
         this Project was coded by

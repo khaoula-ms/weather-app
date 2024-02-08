@@ -104,3 +104,19 @@ a {
 .humidity {
   padding-bottom: 10px;
 }
+.forecast-weather {
+  display: flex;
+  justify-content: space-evenly;
+}
+.forecast-day {
+  margin-top: 10px;
+}
+.forecast-icon {
+  display: flex;
+  justify-content: center;
+  width: 88px;
+}
+.forecast-temperature {
+  padding: 0 5px;
+  margin-top: 5px;
+}
